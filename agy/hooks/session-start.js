@@ -13,14 +13,14 @@ function main() {
   });
 
   process.stdin.on('end', () => {
-    const banner = '✨ **effortless** for agy is active · Dynamic reasoning effort & context monitoring enabled';
+    const banner = '✨ effortless (agy) is active · Dynamic reasoning effort & context monitoring enabled';
     const result = {
       injectSteps: [
         {
           systemMessage: {
-            systemMessage: 'effortless (agy) is active. Dynamic reasoning effort control enabled.',
+            systemMessage: banner,
             metadata: {
-              user_markdown: banner
+              user_markdown: `✨ **effortless** (agy) is active · Dynamic reasoning effort & context monitoring enabled`
             }
           }
         }

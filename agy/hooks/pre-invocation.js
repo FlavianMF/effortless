@@ -36,12 +36,13 @@ function main() {
 
     const directive = getSystemDirective(effort);
     const hud = renderHUD(effort, estContextPct, modelName);
+    const fullMessage = config.showHud ? `${hud}\n\n${directive}` : directive;
 
     const result = {
       injectSteps: [
         {
           systemMessage: {
-            systemMessage: directive,
+            systemMessage: fullMessage,
             metadata: {
               user_markdown: config.showHud ? hud : ''
             }
