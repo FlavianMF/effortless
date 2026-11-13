@@ -1,0 +1,7 @@
+{
+  "name": "effortless",
+  "version": "1.72.0",
+  "description": "Dynamic reasoning effort judge and context monitoring HUD for Antigravity CLI (agy)",
+  "author": "HeyCubit (ported to agy by FlavianMF)",
+  "repository": "https://github.com/FlavianMF/effortless"
+}

@@ -1,0 +1,8 @@
+{
+  "effortFloor": "low",
+  "effortCeiling": "max",
+  "effortBias": 0,
+  "theme": "violet",
+  "swampAt": 70,
+  "showHud": true
+}

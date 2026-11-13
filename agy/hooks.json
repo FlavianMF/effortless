@@ -1,0 +1,23 @@
+{
+  "effortless": {
+    "SessionStart": [
+      {
+        "type": "command",
+        "command": "node hooks/session-start.js"
+      }
+    ],
+    "PreInvocation": [
+      {
+        "type": "command",
+        "command": "node hooks/pre-invocation.js",
+        "timeout": 5
+      }
+    ],
+    "Stop": [
+      {
+        "type": "command",
+        "command": "node hooks/stop.js"
+      }
+    ]
+  }
+}
