@@ -18,10 +18,7 @@ function main() {
       injectSteps: [
         {
           systemMessage: {
-            systemMessage: banner,
-            metadata: {
-              user_markdown: `✨ **effortless** (agy) is active · Dynamic reasoning effort & context monitoring enabled`
-            }
+            systemMessage: banner
           }
         }
       ]
